@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Projects</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center; /* Align content horizontally to center */
+    align-items: center; /* Align content vertically to center */
+    height: 100vh; /* Set height of body to viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.box-container {
+    display: flex;
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.box:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+</style>
+<header class="header1">
+    <a href="index.html" class="logo">My<span> Portfolio</span></a>
+    <nav class="navh">
+        <a href="index.html">Home</a>
+        <a href="index.html">Skills</a>
+        <a href="Contact me.html">Contact me</a>
+        <a href="Recentproj.html">Projects</a>
+    </nav>
+</header>
+<body>
+    <div class="box-container">
+		<div class="box" id="box1">
+			<img src="Reg.png" alt="Image 1">
+		</div>
+		<div class="box" id="box2">
+			<img src="coffee.png" alt="Image 2">
+		</div>
+	</div>
+	
+	
+</body>
+</html>
